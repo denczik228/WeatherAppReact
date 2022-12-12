@@ -1,14 +1,14 @@
 import React from "react"
-import { SearchBar } from "../components/SearchBar"
 import './Home.css'
-import FullWeather from "../components/FullWeather"
+import SearchBar from "../components/SearchBar"
 
 export const Home = () => {
 
     return (
+        <>
         <div className='Home'>
             <SearchBar />
-            <FullWeather/>
         </div>
+        </>
     )
 }

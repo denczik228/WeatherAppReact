@@ -1,0 +1,174 @@
+{
+    "Headline": {
+        "EffectiveDate": "2022-12-13T07:00:00+02:00",
+        "EffectiveEpochDate": 1670907600,
+        "Severity": 5,
+        "Text": "Expect showers Tuesday",
+        "Category": "rain",
+        "EndDate": "2022-12-13T19:00:00+02:00",
+        "EndEpochDate": 1670950800,
+        "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?lang=en-us",
+        "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?lang=en-us"
+    },
+    "DailyForecasts": [
+        {
+            "Date": "2022-12-12T07:00:00+02:00",
+            "EpochDate": 1670821200,
+            "Temperature": {
+                "Minimum": {
+                    "Value": 58,
+                    "Unit": "F",
+                    "UnitType": 18
+                },
+                "Maximum": {
+                    "Value": 73,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "Day": {
+                "Icon": 6,
+                "IconPhrase": "Mostly cloudy",
+                "HasPrecipitation": false
+            },
+            "Night": {
+                "Icon": 38,
+                "IconPhrase": "Mostly cloudy",
+                "HasPrecipitation": false
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=1&lang=en-us",
+            "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=1&lang=en-us"
+        },
+        {
+            "Date": "2022-12-13T07:00:00+02:00",
+            "EpochDate": 1670907600,
+            "Temperature": {
+                "Minimum": {
+                    "Value": 60,
+                    "Unit": "F",
+                    "UnitType": 18
+                },
+                "Maximum": {
+                    "Value": 72,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "Day": {
+                "Icon": 13,
+                "IconPhrase": "Mostly cloudy w/ showers",
+                "HasPrecipitation": true,
+                "PrecipitationType": "Rain",
+                "PrecipitationIntensity": "Light"
+            },
+            "Night": {
+                "Icon": 7,
+                "IconPhrase": "Cloudy",
+                "HasPrecipitation": false
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=2&lang=en-us",
+            "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=2&lang=en-us"
+        },
+        {
+            "Date": "2022-12-14T07:00:00+02:00",
+            "EpochDate": 1670994000,
+            "Temperature": {
+                "Minimum": {
+                    "Value": 60,
+                    "Unit": "F",
+                    "UnitType": 18
+                },
+                "Maximum": {
+                    "Value": 69,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "Day": {
+                "Icon": 6,
+                "IconPhrase": "Mostly cloudy",
+                "HasPrecipitation": false
+            },
+            "Night": {
+                "Icon": 12,
+                "IconPhrase": "Showers",
+                "HasPrecipitation": true,
+                "PrecipitationType": "Rain",
+                "PrecipitationIntensity": "Light"
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=3&lang=en-us",
+            "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=3&lang=en-us"
+        },
+        {
+            "Date": "2022-12-15T07:00:00+02:00",
+            "EpochDate": 1671080400,
+            "Temperature": {
+                "Minimum": {
+                    "Value": 58,
+                    "Unit": "F",
+                    "UnitType": 18
+                },
+                "Maximum": {
+                    "Value": 70,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "Day": {
+                "Icon": 2,
+                "IconPhrase": "Mostly sunny",
+                "HasPrecipitation": false
+            },
+            "Night": {
+                "Icon": 33,
+                "IconPhrase": "Clear",
+                "HasPrecipitation": false
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=4&lang=en-us",
+            "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=4&lang=en-us"
+        },
+        {
+            "Date": "2022-12-16T07:00:00+02:00",
+            "EpochDate": 1671166800,
+            "Temperature": {
+                "Minimum": {
+                    "Value": 58,
+                    "Unit": "F",
+                    "UnitType": 18
+                },
+                "Maximum": {
+                    "Value": 72,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "Day": {
+                "Icon": 1,
+                "IconPhrase": "Sunny",
+                "HasPrecipitation": false
+            },
+            "Night": {
+                "Icon": 33,
+                "IconPhrase": "Clear",
+                "HasPrecipitation": false
+            },
+            "Sources": [
+                "AccuWeather"
+            ],
+            "MobileLink": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=5&lang=en-us",
+            "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/daily-weather-forecast/215854?day=5&lang=en-us"
+        }
+    ]
+}

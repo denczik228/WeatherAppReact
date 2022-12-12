@@ -1,6 +1,40 @@
-.Searchbar{
-    border-radius: 1px solid black ;
+.Searchbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 1px solid black;
     height: 34px;
     font-style: italic;
     font-size: 28px;
+    width: 100%;
+}
+
+.Searchbar input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 5px;
+}
+
+.Searchbar ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solod #ccc;
+}
+
+.Searchbar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Searchbar li:hover {
+    text-decoration: underline;
+    background-color: #cccccc50;
 }

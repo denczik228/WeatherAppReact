@@ -1,0 +1,16 @@
+.WeekWeather{
+    display: flex;
+}
+
+.WeekWeather div{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-items: center;
+    border: 1px solid orange;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color:mistyrose;
+}
