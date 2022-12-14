@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 import { AppContext } from '../App';
 import five from '../json/Five.json';
 import './WeekWeather.css';
+import moment from 'moment';
 
 // const BASE_URL = process.env.REACT_APP_BASE_URL;
 // const API_KEY = process.env.REACT_APP_API_KEY;
@@ -35,9 +36,9 @@ const WeekWeather = (props) => {
                     return (
                         <>
                             <div key={item.Key} className='container'>
-                                <p>{currentWeather[index].Date}</p>
-                                <p>{currentWeather[index].Temperature.Minimum.Value + ' ' + currentWeather[index].Temperature.Minimum.Unit}</p>
-                                <p>{currentWeather[index].Temperature.Maximum.Value + ' ' + currentWeather[index].Temperature.Maximum.Unit}</p>
+                                <p>{moment(item.Date).utc().format("ddd") }</p>
+                                <p>{item.Temperature.Minimum.Value + ' ' + item.Temperature.Minimum.Unit}</p>
+                                <p>{item.Temperature.Maximum.Value + ' ' + item.Temperature.Maximum.Unit}</p>
                             </div>
                         </>
                     )
