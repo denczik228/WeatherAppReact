@@ -2,7 +2,6 @@ import './App.css';
 import { Header } from './components/Header';
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/Home';
-import { Favorites } from './pages/Favorites'
 import { useState, createContext } from 'react';
 
 export const AppContext = createContext();
@@ -19,8 +18,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/favorites' element={<Favorites />}/>
-      </Routes>
+       </Routes>
       </AppContext.Provider>
     </div>
   );
